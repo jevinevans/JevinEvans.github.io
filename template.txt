@@ -3,11 +3,10 @@
     <head>
         <title>Jevin Evans</title>
         <link rel="stylesheet" href="styles/global.css">
-        
+
     </head>
     <body>
         <div class="Top-Nav-Bar">
-            <!-- Set active class for each tag-->
             <nav>
                 <a class="active" href="index.html">Home</a>
                 <a href="Biography.html">About Me</a>
@@ -15,14 +14,19 @@
                 <a href="Projects.html">Projects</a>
             </nav>
         </div>
-	    <div class="welcome">
- 		    <h1>[Enter name of page. TITLE for the PAGE] </h1>
-	    </div>
-     	<div calss="Bottom-Nav-Bar">
+
+        <div class="main-div">
+
+        </div>
+
+     	<div class="Bottom-Nav-Bar">
             <nav>
-                <!-- Social Links -->
+                <!-- Images as links: <a ....><img ...></a>-->
+                <!-- Social Media Links -->
+                <a href="https://www.linkedin.com/in/jevinevans/" target="_blank">Linkedin</a>
+                <a href="https://github.com/jevinevans" target="_blank">GitHub</a>
+
             </nav>
         </div>
-    </body>
     
 </html>

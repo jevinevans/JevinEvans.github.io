@@ -1,13 +1,35 @@
-.Top-Nav-Bar nav{
-    background-color: black;
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-family:Arial, Helvetica, sans-serif;
+} 
+
+h1 {
+    overflow: hidden;
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+nav{
+    margin: 0 0 0 0;
+    background-color: white;
     overflow: hidden;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
+    width: 100%;
+    display: block;
 }
 
 .Top-Nav-Bar nav a {
     float: left;
-    color: #d3d3d3;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     font-size: 18px;
@@ -15,11 +37,34 @@
 }
 
 .Top-Nav-Bar nav a:hover{
-    background-color: #355e3b;
+    background-color: #CFB53B;
     color: white;
 }
 
 .Top-Nav-Bar nav a.active{
-    background-color:#355e3b;
-    color: white;
+    background-color:#CFB53B;
+    color: black;
 }
+
+.Bottom-Nav-Bar nav{
+    position: fixed;
+    bottom: 0;
+    float: right;
+    text-align: center;
+    display: block;
+}
+
+.Bottom-Nav-Bar nav a {
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #CFB53B;
+}
+.Bottom-Nav-Bar img {
+    width: 4%;
+    height: 4%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
