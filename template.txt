@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Jevin Evans</title>
+        <title>[TITLE]</title>
         <link rel="stylesheet" href="styles/global.css">
 
     </head>
@@ -16,16 +16,18 @@
         </div>
 
         <div class="main-div">
+            <h1>[TITLE]</h1>
+            <hr /> 
 
+            <p>
+              CONTENT
+            </p>
         </div>
 
      	<div class="Bottom-Nav-Bar">
             <nav>
-                <!-- Images as links: <a ....><img ...></a>-->
-                <!-- Social Media Links -->
-                <a href="https://www.linkedin.com/in/jevinevans/" target="_blank">Linkedin</a>
-                <a href="https://github.com/jevinevans" target="_blank">GitHub</a>
-
+                <a href="https://www.linkedin.com/in/jevinevans/" target="_blank"><img src="images/socialMedia/LinkedIn-Logo.png" alt="LinkedIN"></a>
+                <a href="https://github.com/jevinevans" target="_blank"><img src="images/socialMedia/Github-Logo.png" alt="GitHub" width="500" height="500"></a>
             </nav>
         </div>
     
