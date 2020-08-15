@@ -19,22 +19,28 @@ hr{
 }
 
 nav{
-    margin: 0 0 0 0;
+    margin: 0 auto;
     background-color: white;
     overflow: hidden;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
-    width: 100%;
     display: block;
 }
 
-.Top-Nav-Bar nav a {
+a {
+    text-decoration: none;
+}
+
+.Top-Nav-Bar nav{
+    width: 750px;
+}
+.Top-Nav-Bar a {
     float: left;
     color: black;
     text-align: center;
     padding: 14px 16px;
     font-size: 18px;
-    text-decoration: none;
+    width: 150px;
 }
 
 .Top-Nav-Bar nav a:hover{
@@ -50,21 +56,23 @@ nav{
 .Bottom-Nav-Bar nav{
     position: fixed;
     bottom: 0;
-    float: right;
+    /* float: right; */
     text-align: center;
     display: block;
+    width: 800px;
 }
 
-.Bottom-Nav-Bar nav a {
+.Bottom-Nav-Bar a {
     text-align: center;
     padding: 14px 16px;
     font-size: 14px;
-    text-decoration: none;
     color: #CFB53B;
+    width: 200px;
+    /* float: left; */
 }
 .Bottom-Nav-Bar img {
-    width: 4%;
-    height: 4%;
+    width: 10%;
+    height: 10%;
     text-align: center;
     padding-bottom: 15px;
 }
